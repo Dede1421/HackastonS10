@@ -4,14 +4,14 @@ function sumaDeNumeros() {
   let firstNumber = parseFloat(
     prompt("Porfavor ingrese el primer número que desea sumar")
   );
-  let SecondNumber = parseFloat(
+  let secondNumber = parseFloat(
     prompt("Porfavor ingrese el segundo número que desea sumar")
   );
 
   const suma = (a, b) => {
     return a + b;
   };
-  console.log(suma(firstNumber, SecondNumber));
+  console.log(suma(firstNumber, secondNumber));
 }
 
 sumaDeNumeros();
@@ -48,17 +48,17 @@ sumaDeCubos();
 //Problema 4
 
 function areaTriangulo() {
-  let TriangleBase = parseFloat(
+  let triangleBase = parseFloat(
     prompt("Porfavor ingrese la base del triángulo")
   );
-  let TriangleHeight = parseFloat(
+  let triangleHeight = parseFloat(
     prompt("Porfavor ingrese la altura del triángulo")
   );
 
   const area = (base, height) => {
     return (base * height) / 2;
   };
-  console.log(area(TriangleBase, TriangleHeight));
+  console.log(area(triangleBase, triangleHeight));
 }
 
 areaTriangulo();
