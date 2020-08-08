@@ -1,0 +1,29 @@
+{
+  "name": "hackatons10",
+  "version": "1.0.0",
+  "description": "Ejericios en Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "terser src/scripts/main.js src/scripts/reto1.js --compress --output src/scripts/main.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dede1421/HackastonS10.git"
+  },
+  "keywords": [
+    "Ejercicios",
+    "en",
+    "Js",
+    "Es6"
+  ],
+  "author": "Andre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dede1421/HackastonS10/issues"
+  },
+  "homepage": "https://github.com/Dede1421/HackastonS10#readme",
+  "dependencies": {
+    "terser": "^5.0.0"
+  }
+}
