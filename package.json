@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/Dede1421/HackastonS10#readme",
   "dependencies": {
-    "terser": "^5.0.0"
+    "terser": "^5.14.2"
   }
 }
